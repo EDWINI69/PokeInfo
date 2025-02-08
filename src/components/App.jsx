@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import "./index.css";
-import { BoxTal } from "./assets/abilitybox.jsx";
-import { Types } from "./assets/poketype.jsx";
+import "/src/index.css";
+import { BoxTal } from "./abilitybox.jsx";
+import { Types } from "./poketype.jsx";
 
 function App() {
   const [pokename, setPokename] = useState("Charizard");
